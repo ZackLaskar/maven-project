@@ -29,7 +29,7 @@ pipeline {
                  }
                 build job: 'deploy-to-prod'
              }
-             Post {
+             post {
                  success {
                     echo 'code deploy to production'
                  }
